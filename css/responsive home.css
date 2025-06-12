@@ -1,0 +1,998 @@
+@media(max-width:1100px) {
+    .content {
+        transition: 0.5s ease;
+        height: 78%;
+    }
+
+    #box1,
+    #box2,
+    #box3 {
+        font-size: 15px;
+        line-height: 20px;
+        height: 90px;
+    }
+
+    .heading {
+        font-size: 48px;
+    }
+
+    .slogan {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:800px) {
+    .content {
+        transition: 0.5s ease;
+        height: 74%;
+        width: 90%;
+    }
+
+    .nav-right ul li {
+        font-size: 14px;
+    }
+
+    .last-li img {
+        height: 20px;
+    }
+}
+
+@media(max-width:670px) {
+    .content {
+        height: 90%;
+        width: 100%;
+        display: block;
+        transition: 0.5s ease;
+    }
+
+    .textnbox {
+        width: 100%;
+        height: 30%;
+        transition: 0.5s ease;
+    }
+
+    .heading {
+        height: 90%;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        transition: 0.5s ease;
+    }
+
+    .slogan {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        transition: 0.5s ease;
+    }
+
+    .boxes {
+        display: none;
+    }
+
+    .image {
+        height: 70%;
+        display: flex;
+        margin: auto;
+        transition: 0.5s ease;
+    }
+
+    .nav-right ul li {
+        font-size: 12px;
+        position: relative;
+    }
+
+    .image {
+        height: 70%;
+        width: 70%;
+    }
+
+}
+
+@media(max-width:650px) {
+    .nav {
+        height: 14vh;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+    .nav-left {
+        width: 100%;
+        margin: 0px 10px;
+    }
+
+    .hamburger {
+        display: block;
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        top: 11vh;
+        left: 18px;
+    }
+
+    .ham-menu {
+        display: block;
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        top: 9vh;
+        margin: 0px 5px;
+        background-color: #02749e;
+        width: 225px;
+        height: 400px;
+        transform: translateX(-110%);
+        transition: 1s ease;
+    }
+
+    .ham-menu ul {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0px 15px;
+        position: absolute;
+    }
+
+    .ham-menu ul li {
+        list-style: none;
+        color: white;
+        font-size: large;
+    }
+
+    .ham-menu ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: large;
+    }
+
+    .hum-cross {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+    }
+
+    .hum-cross img {
+        margin: 8px;
+    }
+
+    .logo img {
+        height: 55px;
+    }
+
+    .image {
+        height: 70%;
+        width: 70%;
+    }
+
+    .heading {
+        position: relative;
+        top: 10px;
+        font-size: 40px;
+    }
+
+    .slogan {
+        margin-top: 12px;
+    }
+}
+
+@media(max-width:465px) {
+
+    .heading {
+        height: 80%;
+        font-size: 35px;
+    }
+
+    .slogan {
+        font-size: 13px;
+        margin-top: 13px;
+    }
+
+    .image {
+        height: 70%;
+        width: 80%;
+    }
+
+    .nav {
+        height: 10vh;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+    .hamburger {
+        top: 8vh;
+        left: 10px;
+    }
+}
+
+
+/* END OF FIRST CONTAINER */
+
+/* START OF ABOUT CONTAINER */
+@media (max-width: 1024px) {
+    .welcome {
+        font-size: 45px;
+        height: 12vh;
+    }
+
+    .pic-n-into {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .pic-intro-container {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .pic {
+        width: 90%;
+        height: auto;
+    }
+
+    .pic img {
+        height: auto;
+        width: 100%;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .sp1,
+    .sp2 {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 0 8px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 900px) {
+    .welcome {
+        font-size: 40px;
+        height: 11vh;
+    }
+
+    .sp1,
+    .sp2 {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 0 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .welcome {
+        font-size: 35px;
+        height: 10vh;
+    }
+
+    .sp1,
+    .sp2 {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0 8px;
+    }
+
+    .pic {
+        width: 95%;
+    }
+}
+
+@media (max-width: 600px) {
+    .welcome {
+        font-size: 32px;
+        height: 9vh;
+    }
+
+    .sp1,
+    .sp2 {
+        font-size: 13px;
+        line-height: 21px;
+        padding: 0 8px;
+    }
+
+    .pic {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .welcome {
+        font-size: 28px;
+        height: 8vh;
+    }
+
+    .sp1,
+    .sp2 {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 0 8px;
+    }
+}
+
+@media (max-width: 350px) {
+    .welcome {
+        font-size: 22px;
+        height: 7vh;
+    }
+
+    .sp1,
+    .sp2 {
+        font-size: 11px;
+        line-height: 18px;
+        padding: 0 8px;
+    }
+
+    .pic {
+        width: 100%;
+    }
+}
+
+@media (max-width: 250px) {
+    .welcome {
+        font-size: 18px;
+        height: 6vh;
+    }
+
+    .sp1,
+    .sp2 {
+        font-size: 10px;
+        line-height: 16px;
+        padding: 0 8px;
+    }
+
+    .pic {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* START OF QUOTE CONTAINER */
+@media (max-width: 1024px) {
+    .quote {
+        height: auto;
+        font-size: 22px;
+        text-align: center;
+        line-height: 1.5;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 900px) {
+    .quote {
+        font-size: 20px;
+        line-height: 1.5;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .quote {
+        font-size: 18px;
+        line-height: 1.5;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .quote {
+        font-size: 17px;
+        line-height: 1.4;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .quote {
+        font-size: 16px;
+        line-height: 1.4;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 350px) {
+    .quote {
+        font-size: 14px;
+        line-height: 1.3;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 250px) {
+    .quote {
+        font-size: 12px;
+        line-height: 1.2;
+        padding: 10px 0px;
+    }
+}
+
+
+
+/* START OF RESEARCH */
+
+@media(max-width:1024px) {
+    .r-heading h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:900px) {
+
+    .r-text-main {
+        line-height: 22px;
+    }
+
+    .r-heading h1 {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:800px){
+    
+    .hidden-img-heading{
+        flex-direction: column;
+    }
+
+    .hidden-img{
+        height: 70%;
+        width: 100%;
+    }
+
+    .hidden-heading{
+        width: 100%;
+        height: 30%;
+        text-align: center;
+    }
+}
+
+@media(max-width:730px) {
+
+    .research {
+        height: 115vh;
+    }
+
+    .r-heading h1 {
+        font-size: 22px;
+    }
+
+    .r-text-main {
+        overflow-y: auto;
+    }
+
+    .ref-btn button {
+        padding: 5px;
+    }
+
+    .hidden-research{
+        height: 90%;
+    }
+
+}
+
+@media(max-width:665px) {
+
+    .r-heading h1 {
+        font-size: 18px;
+    }
+
+    .hidden-heading h1, h3{
+        font-size: 20px;
+    }
+
+}
+
+@media(max-width:550px) {
+
+    .r-text-main {
+        display: none;
+    }
+
+    .research-1 {
+        flex-direction: column;
+        width: 40%;
+        height: 40%;
+        margin: 10px;
+    }
+
+    .research {
+        height: 130vh;
+    }
+
+    .r-body {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .r-text {
+        width: 100%;
+        height: 30%;
+    }
+
+    .r-heading {
+        height: 60%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ref-btn {
+        height: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .r-img {
+        height: 70%;
+        width: 100%;
+    }
+
+    .hidden-img-heading{
+        flex-direction: column;
+    }
+
+    .hidden-img{
+        height: 70%;
+        width: 100%;
+    }
+
+    .hidden-heading{
+        width: 100%;
+        height: 30%;
+    }
+
+}
+
+@media(max-width:450px) {
+
+    .research {
+        height: 130vh;
+    }
+
+    .r-heading1 {
+        font-size: 25px;
+    }
+
+    .r-heading h1 {
+        font-size: 15px;
+    }
+
+    .research-1{
+        width: 75%;
+        height: 30%;
+    }
+
+    .r-heading h1{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .ref-btn button{
+        padding: 3px 5px;
+    }
+
+}
+
+
+/* START OF SERVICES */
+@media(max-width:900px){
+
+    .services{
+        height: 200vh;
+    }
+
+    .main-s-heading{
+        height: 10%;
+    }
+
+    .main-s-heading span{
+        font-size: 20px;
+    }
+
+    .s-card-container{
+        width: 90%;
+    }
+
+    .s-card{
+        width: 45%;
+        height: 30%;
+        margin-top: 20px;
+    }
+
+}
+
+@media(max-width:500px){
+
+    .services{
+        height: 220vh;
+    }
+
+    .services-head{
+        font-size: 36px;
+        height: 5%;
+    }
+
+    .s-card-text-heading{
+        font-size: 13px;
+    }
+
+    .main-s-heading span{  
+        font-size: 17px;
+    }
+}
+
+@media(max-width:450px){
+
+    .services{
+        height: 340vh;
+    }
+
+    .services-head{
+        height: 3%;
+    }
+
+    .main-s-heading{
+        height: 5%;
+        padding: 35px 0px;
+    }
+
+    .services-body{
+        height: 88%;
+    }
+
+    .s-card{
+        width: 80%;
+        height: 15%;
+    }
+}
+
+@media(max-width:300px){
+
+    .services-head{
+        height: 2%;
+        font-size: 25px;
+    }
+
+    .main-s-heading span{
+        font-size: 16px;
+    }
+
+    .services-body{
+        height: 90%;
+    }
+}
+
+@media(max-width:250px){
+    .main-s-heading span{
+        font-size: 14px;
+    }
+}
+
+
+/* START OF CONTACT */
+@media (max-width: 1024px) {
+    .contact-body-main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-text {
+        width: 90%;
+        font-size: 24px;
+    }
+
+    .contact-img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 900px) {
+    .contact-head {
+        font-size: 34px;
+    }
+
+    .contact-text {
+        font-size: 22px;
+    }
+
+    .contact-img {
+        width: 85%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-head {
+        font-size: 32px;
+    }
+
+    .contact-text {
+        font-size: 20px;
+    }
+
+    .contact-text button {
+        font-size: 16px;
+    }
+
+    .contact-img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-head {
+        font-size: 28px;
+    }
+
+    .contact-text {
+        font-size: 18px;
+    }
+
+    .contact-text button {
+        font-size: 15px;
+    }
+
+    .contact-img {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-head {
+        font-size: 24px;
+    }
+
+    .contact-text {
+        font-size: 16px;
+    }
+
+    .contact-text button {
+        font-size: 14px;
+    }
+
+    .contact-img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    .contact-head {
+        font-size: 22px;
+    }
+
+    .contact-text {
+        font-size: 14px;
+    }
+
+    .contact-text button {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 250px) {
+    .contact-head {
+        font-size: 18px;
+    }
+
+    .contact-text {
+        font-size: 12px;
+    }
+
+    .contact-text button {
+        font-size: 12px;
+    }
+}
+
+
+/* START OF FOOTER */
+@media (max-width: 1024px) {
+    .foot {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foot1,
+    .foot2 {
+        width: 100%;
+    }
+
+    .foot2-hori1 {
+        display: flex;
+    }
+
+    .hori1-one,
+    .hori1-two {
+        width: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+    .foot1-text {
+        font-size: 22px;
+    }
+
+    .hori1-one h1,
+    .hori1-two h1 {
+        font-size: 26px;
+    }
+
+    .hori1-one ul li,
+    .hori1-two ul li {
+        font-size: 18px;
+    }
+
+    .follow-us {
+        font-size: 26px;
+    }
+
+    .follow-logos img {
+        width: 45px;
+        height: 45px;
+    }
+
+
+    .foot2-hori1 {
+        display: flex;
+    }
+
+    .hori1-one,
+    .hori1-two {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .foot1-text {
+        font-size: 20px;
+    }
+
+    .hori1-one h1,
+    .hori1-two h1 {
+        font-size: 24px;
+    }
+
+    .hori1-one ul li,
+    .hori1-two ul li {
+        font-size: 16px;
+    }
+
+    .follow-us {
+        font-size: 24px;
+    }
+
+    .follow-logos img {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .foot2-hori1 {
+        display: flex;
+    }
+
+    .hori1-one,
+    .hori1-two {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .foot1-text {
+        font-size: 18px;
+    }
+
+    .hori1-one h1,
+    .hori1-two h1 {
+        font-size: 22px;
+    }
+
+    .hori1-one ul li,
+    .hori1-two ul li {
+        font-size: 14px;
+    }
+
+    .follow-us {
+        font-size: 22px;
+    }
+
+    .follow-logos img {
+        width: 35px;
+        height: 35px;
+    }
+
+
+    .foot2-hori1 {
+        display: flex;
+    }
+
+    .hori1-one,
+    .hori1-two {
+        width: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    .foot1-text {
+        font-size: 16px;
+    }
+
+    .hori1-one h1,
+    .hori1-two h1 {
+        font-size: 20px;
+    }
+
+    .hori1-one ul li,
+    .hori1-two ul li {
+        font-size: 13px;
+    }
+
+    .follow-us {
+        font-size: 20px;
+    }
+
+    .follow-logos img {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .foot2-hori1 {
+        display: flex;
+    }
+
+    .hori1-one,
+    .hori1-two {
+        width: 50%;
+    }
+}
+
+@media (max-width: 300px) {
+    .foot1-text {
+        font-size: 14px;
+    }
+
+    .hori1-one h1,
+    .hori1-two h1 {
+        font-size: 18px;
+    }
+
+    .hori1-one ul li,
+    .hori1-two ul li {
+        font-size: 12px;
+    }
+
+    .follow-us {
+        font-size: 18px;
+    }
+
+    .follow-logos img {
+        width: 25px;
+        height: 25px;
+    }
+
+
+    .foot2-hori1 {
+        display: flex;
+    }
+
+    .hori1-one,
+    .hori1-two {
+        width: 50%;
+    }
+}
